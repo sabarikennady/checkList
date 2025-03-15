@@ -25,11 +25,7 @@ A **React Native** application to manage checklists efficiently with swipe actio
 
 ## 📽️ Demo
 
-<p align="center">
-  <video width="40%" controls>
-    <source src="assets/recording.webm" type="webm">
-  </video>
-</p>
+[Watch the recording](https://github.com/sabarikennady/checkList/blob/main/assets/recording.webm)
 
 ---
 
