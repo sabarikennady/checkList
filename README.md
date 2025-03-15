@@ -1,65 +1,83 @@
-# 📋 CheckList  
+# 📋 CheckList
 
 A **React Native** application to manage checklists efficiently with swipe actions, editable lists, and seamless UI updates.
 
-## 🚀 Features  
+## 🚀 Features
+
 ✅ **Create Checklists** – Add multiple items under a title.  
 ✅ **Edit Checklists** – Modify, delete, and reorder items.  
 ✅ **Swipe Actions** – Mark items as done/undone and delete with swipe gestures.  
 ✅ **Persistent Storage** – Saves data using React Context API and Async Storage.  
-✅ **Smooth UI** – Uses `react-native-gesture-handler` and `react-native-reanimated` for fluid interactions.  
+✅ **Smooth UI** – Uses `react-native-gesture-handler` and `react-native-reanimated` for fluid interactions.
 
 ---
 
-## 🛠️ Tech Stack  
-- **React Native**  
-- **React Context API** (for state management)  
-- **react-native-gesture-handler** (for swipe gestures)  
-- **react-native-reanimated** (for animations)  
-- **TypeScript** (optional, if used)  
-- **Jest + React Native Testing Library** (for unit tests)  
+## 🛠️ Tech Stack
+
+- **React Native**
+- **React Context API** (for state management)
+- **react-native-gesture-handler** (for swipe gestures)
+- **react-native-reanimated** (for animations)
+- **TypeScript** (optional, if used)
+- **Jest + React Native Testing Library** (for unit tests)
 
 ---
 
-## 📦 Installation  
+## 📽️ Demo
 
-1️⃣ **Clone the repo**  
+Here is a screen recording of the app in action:
+
+<p align="left">
+  <img src="assets/recording.gif" alt="Demo" width="20%">
+</p>
+
+---
+
+## 📦 Installation
+
+1️⃣ **Clone the repo**
+
 ```sh
 git clone https://github.com/sabarikennady/checkList.git
 cd checkList
 ```
 
-2️⃣ **Install dependencies**  
+2️⃣ **Install dependencies**
+
 ```sh
 npm install
 ```
 
-3️⃣ **Run the app**  
-- For **Android**:  
+3️⃣ **Run the app**
+
+- For **Android**:
   ```sh
   npm run android
   ```
-- For **iOS**: 
+- For **iOS**:
   ```sh
   npx pod-install
   npm run ios
   ```
 
-
 ---
 
-## 🧪 Running Tests  
+## 🧪 Running Tests
+
 ```sh
 npm test
 ```
-or  
+
+or
+
 ```sh
 npx jest
 ```
 
 ---
 
-## 📂 Project Structure  
+## 📂 Project Structure
+
 ```
 src/
 │-- components/   # Reusable UI components (e.g., SwipeableItem)
@@ -67,4 +85,3 @@ src/
 │-- screens/      # All app screens (Checklist, PreDepartureChecklist etc.)
 │-- App.js        # Root component
 ```
-
