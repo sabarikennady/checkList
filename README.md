@@ -28,7 +28,7 @@ A **React Native** application to manage checklists efficiently with swipe actio
 Here is a screen recording of the app in action:
 
 <p align="left">
-  <img src="assets/recording.gif" alt="Demo" width="20%">
+  <img src="assets/recording.gif" alt="Demo" width="30%">
 </p>
 
 ---
